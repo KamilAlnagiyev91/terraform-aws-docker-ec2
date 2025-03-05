@@ -46,7 +46,7 @@ resource "aws_security_group" "tf-sec-gr" {
       
     }
 
-    egress = {
+    egress {
         from_port = 0
         protocol = "-1"
         to_port = 0
